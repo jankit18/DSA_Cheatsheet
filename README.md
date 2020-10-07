@@ -1,2 +1,2 @@
 # DSA_Cheatsheet
--> Last minute Revision lookup sheet.
+- Last minute Revision lookup sheet.
