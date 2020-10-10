@@ -4,7 +4,7 @@
 
 ->  Worst Case Time Complexity - O(N2)
 ->  Best Case Time Complexity - O(N2)
-
+->  Stable (order of element does not change)
 //  For more info: https://www.geeksforgeeks.org/bubble-sort/
 
 #   Insertion Sort 
@@ -14,7 +14,7 @@
 ->  Worst time complexity - O(N2)  
 ->  Best Case - O(N) for sorted array
 ->  Space Complexity - O(N)
-
+->  Stable (order of element does not change)
 ->  Advantage: Performs better for small length array.
 
 //  For more info:  https://www.geeksforgeeks.org/insertion-sort/
@@ -27,7 +27,7 @@
 
 ->  Best Case Time complexity - Theta(Nlog(N))
 ->  Auxillary Space complexity - Theta(N) space is Created and Destroyed at every level. 
-
+->  Stable (order of element does not change after sorting)
 ->  Add-on :
 1)  Space complexity can be dcreased to O(1) if we use Linked List instead arrays.
 2)  In general for arrays, QuickSort performs better.
@@ -55,7 +55,7 @@
 ->  Worst Time Complexity - O(N2)  
 ->  Best Case - O(NlogN)
 ->  Space Complexity - O(1)
-
+->  Un-Stable (order of element changes)
 ->  Add-on : Though it have high time complexity, then also it is preferred over the other sorting algorithm due to following reason:
 
 1)  In-place Sorting.
@@ -73,7 +73,7 @@
 ->  Worst Time Complexity - O(NlogN)  
 ->  Best Case - O(N) for sorted array.
 ->  Space Complexity - O(1)
-   
+->  Un-Stable (order of element changes after sorting)   
 //  For more info: https://www.geeksforgeeks.org/heap-sort/
 
 
@@ -83,7 +83,8 @@
 
 ->  Time Complexity:  Theta(N)
 ->  Space Complexity: O(n) where n is the upper limit of the number in the array.
-
+->  Stable (order of element does not change after sorting)
+    
 ->  Limitation: Incompactible with higher limit of array element size because we cannot declare large size array for storing the count.
 
 //  For more info: https://www.geeksforgeeks.org/counting-sort/
@@ -94,6 +95,7 @@
 ->  Short Intro : Sort in based on the fact that if we sort element based on least significant digit to most significant digit in it, 
                   then final result will be a sorted array. 
 
+->  Stable (order of element does not change after sorting)
 ->  Time Complexity:  Theta(d*(N+b)) - where d is the number of digit in maximum element of the array and b is the base of the number.
 ->  Space Complexity: Theta(N+b) 
 
