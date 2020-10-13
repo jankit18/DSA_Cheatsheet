@@ -2,19 +2,21 @@
     -----------
 ->  Short Intro: Find the smallest element for every index by traversing all element after it.
 
-->  Worst Case Time Complexity - O(N2)
-->  Best Case Time Complexity - O(N2)
+->  Worst Case Time Complexity - O(N^2)
+->  Best Case Time Complexity - O(N^2)
 ->  Stable (order of element does not change)
+    
 //  For more info: https://www.geeksforgeeks.org/bubble-sort/
 
 #   Insertion Sort 
     --------------
 ->  Short Intro: Sort array before an index and then find perfect place for the value at that index in the sorted part.
 
-->  Worst time complexity - O(N2)  
+->  Worst time complexity - O(N^2)  
 ->  Best Case - O(N) for sorted array
 ->  Space Complexity - O(N)
 ->  Stable (order of element does not change)
+    
 ->  Advantage: Performs better for small length array.
 
 //  For more info:  https://www.geeksforgeeks.org/insertion-sort/
@@ -28,6 +30,7 @@
 ->  Best Case Time complexity - Theta(Nlog(N))
 ->  Auxillary Space complexity - Theta(N) space is Created and Destroyed at every level. 
 ->  Stable (order of element does not change after sorting)
+    
 ->  Add-on :
 1)  Space complexity can be dcreased to O(1) if we use Linked List instead arrays.
 2)  In general for arrays, QuickSort performs better.
@@ -56,8 +59,8 @@
 ->  Best Case - O(NlogN)
 ->  Space Complexity - O(1)
 ->  Un-Stable (order of element changes)
+    
 ->  Add-on : Though it have high time complexity, then also it is preferred over the other sorting algorithm due to following reason:
-
 1)  In-place Sorting.
 2)  Average Case Time Complexity- O(Nlog(N)).
 3)  Tail Recursive.
@@ -95,9 +98,9 @@
 ->  Short Intro : Sort in based on the fact that if we sort element based on least significant digit to most significant digit in it, 
                   then final result will be a sorted array. 
 
-->  Stable (order of element does not change after sorting)
 ->  Time Complexity:  Theta(d*(N+b)) - where d is the number of digit in maximum element of the array and b is the base of the number.
 ->  Space Complexity: Theta(N+b) 
+->  Stable (order of element does not change after sorting)
 
 //  For more info: https://www.geeksforgeeks.org/radix-sort/
 
