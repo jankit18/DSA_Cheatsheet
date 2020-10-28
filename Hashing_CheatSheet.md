@@ -1,4 +1,5 @@
-# Hashing:  Finding exact value in a faster way for present or future use.
+# Hashing:  
+	Short Intro -> Finding exact value in a faster way for present or future use.
 
 	-> Direct Address Table Hashing: Simply it uses the array indices to match the value asked and check whether it is hit or not.
 	   ~ Disadvantage: This technique fails for the larger value, floating-point values, string ,and other non-integer values.
@@ -32,7 +33,8 @@
 
 		~ But if we do not know the keys in advance then the following are the techniques which will help us :) 
 
-# Chaining -> It links the keys with same hash value as chain which can be implemented using a dynamic array or LinkedList or even using self-balancing BST.
+# Chaining 
+	Short Intro -> It links the keys with same hash value as chain which can be implemented using a dynamic array or LinkedList or even using self-balancing BST.
 
        Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
        H(key) = key%5
