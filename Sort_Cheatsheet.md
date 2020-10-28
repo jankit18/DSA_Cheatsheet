@@ -6,7 +6,7 @@
     ->  Best Case Time Complexity - O(N^2)
     ->  Stable (order of element does not change)
     
-//  For more info: https://www.geeksforgeeks.org/bubble-sort/
+   For more info: https://www.geeksforgeeks.org/bubble-sort/
 
 #   Insertion Sort 
 
@@ -19,7 +19,7 @@
     
     ->  Advantage: Performs better for small length array.
 
-//  For more info:  https://www.geeksforgeeks.org/insertion-sort/
+   For more info:  https://www.geeksforgeeks.org/insertion-sort/
 
 
 #   Merge Sort 
@@ -66,7 +66,7 @@
     3)  Tail Recursive.
     4)  Cache Friendly.
    
-//  For more info: https://www.geeksforgeeks.org/quick-sort/
+   For more info: https://www.geeksforgeeks.org/quick-sort/
 
 
 #   Heap Sort
@@ -77,7 +77,7 @@
     ->  Best Case - O(N) for sorted array.
     ->  Space Complexity - O(1)
     ->  Un-Stable (order of element changes after sorting)   
-//  For more info: https://www.geeksforgeeks.org/heap-sort/
+   For more info: https://www.geeksforgeeks.org/heap-sort/
 
 
 #   Count Sort
@@ -90,7 +90,7 @@
 
     ->  Limitation: Incompactible with higher limit of array element size because we cannot declare large size array for storing the count.
 
-//  For more info: https://www.geeksforgeeks.org/counting-sort/
+   For more info: https://www.geeksforgeeks.org/counting-sort/
 
 
 #   Radix Sort
@@ -102,5 +102,5 @@
     ->  Space Complexity: Theta(N+b) 
     ->  Stable (order of element does not change after sorting)
 
-//  For more info: https://www.geeksforgeeks.org/radix-sort/
+   For more info: https://www.geeksforgeeks.org/radix-sort/
 
