@@ -39,15 +39,15 @@ Hashing:  Finding exact value in a faster way for present or future use.
 
             ------
        0   |  50  | -> 205
-	          ------
+	    ------
        1   |  21  | -> 506 -> 711
-	          ------
+	    ------
        2   |  17  | -> 102
-	           ------
+	    ------
        3   |  58  | -> 8
-	          ------
+	    ------
        4   |  54  | -> 159 -> 544 -> 989
-	          ------
+	    ------
 		
 2. Open Addressing -> When there is a collision it uses the next free slot of the Hash table for insertion.   
 	Condition for Open addressing :	- Number of slots in the hash table must be greater than or equal to the number of keys to be inserted.   
@@ -93,5 +93,5 @@ Hashing:  Finding exact value in a faster way for present or future use.
 		H(key,i)=[H1(key)+i*H2(key)]%M , where H1(key)and H2(key) are the hash function.	
 
 
-For Detailed Info:
+For Detailed Info: https://www.geeksforgeeks.org/hashing-data-structure/
 
