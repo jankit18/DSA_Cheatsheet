@@ -33,6 +33,7 @@ Hashing:  Finding exact value in a faster way for present or future use.
 	~ But if we do not know the keys in advance then the following are the techniques which will help us :) 
 
 1. Chaining -> It links the keys with same hash value as chain which can be implemented using a dynamic array or LinkedList or even using self-balancing BST.
+
        Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
        H(key) = key%5
             ------
@@ -50,6 +51,7 @@ Hashing:  Finding exact value in a faster way for present or future use.
 2. Open Addressing -> When there is a collision it uses the next free slot of the Hash table for insertion.   
 	Condition for Open addressing :	- Number of slots in the hash table must be greater than or equal to the number of keys to be inserted.   
 	Advantage: i) Cache Friendly, since it uses the hash table only.
+	
        Keys = { 50, 51, 49, 16, 56, 15, 19 }
        H(key) = key%7
             ------
