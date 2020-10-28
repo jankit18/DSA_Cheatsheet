@@ -36,19 +36,19 @@
 # Chaining 
 	Short Intro -> It links the keys with same hash value as chain which can be implemented using a dynamic array or LinkedList or even using self-balancing BST.
 
-       Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
-       H(key) = key%5
-	    ------
-       0   |  50  | -> 205
-	    ------
-       1   |  21  | -> 506 -> 711
-	    ------
-       2   |  17  | -> 102
-	    ------
-       3   |  58  | -> 8
-	    ------
-       4   |  54  | -> 159 -> 544 -> 989
-	    ------
+		       Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
+		       H(key) = key%5
+			    ------
+		       0   |  50  | -> 205
+			    ------
+		       1   |  21  | -> 506 -> 711
+			    ------
+		       2   |  17  | -> 102
+			    ------
+		       3   |  58  | -> 8
+			    ------
+		       4   |  54  | -> 159 -> 544 -> 989
+			    ------
 
 # Open Addressing 
 	       
