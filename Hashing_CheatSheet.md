@@ -37,17 +37,17 @@ Hashing:  Finding exact value in a faster way for present or future use.
        Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
        H(key) = key%5
 
-            ------
+            	------
        0   |  50  | -> 205
-	    ------
+	   	 ------
        1   |  21  | -> 506 -> 711
-	    ------
+	   	 ------
        2   |  17  | -> 102
-	    ------
+	   	 ------
        3   |  58  | -> 8
-	    ------
+	   	 ------
        4   |  54  | -> 159 -> 544 -> 989
-	    ------
+	   	 ------
 		
 2. Open Addressing -> When there is a collision it uses the next free slot of the Hash table for insertion.   
 	Condition for Open addressing :	- Number of slots in the hash table must be greater than or equal to the number of keys to be inserted.   
@@ -56,21 +56,21 @@ Hashing:  Finding exact value in a faster way for present or future use.
        Keys = { 50, 51, 49, 16, 56, 15, 19 }
        H(key) = key%7
 
-            ------
+           	 ------
        0   |  49  | 
-	    ------
+	   	 ------
        1   |  50  | 
-	    ------
+	   	 ------
        2   |  51  | 
-	    ------
+	    	------
        3   |  16  | 
-	    ------
+	    	------
        4   |  56  | 
-            ------
+            	------
        0   |  15  | 
-	    ------
+	    	------
        1   |  19  |
-	    ------
+	    	------
        
    Types of Open Addressing Based on Efficiency:   
    i. Linear Probing - It searches linearly from the next empty slot when a collision happens.
@@ -84,7 +84,7 @@ Hashing:  Finding exact value in a faster way for present or future use.
 		       H(key,i)=[H(key)+i^2]%M , where H(key) is a hash function.
 		       
      -> Disadvantage: i) Clustering is reduced to some extent as secondary clustering takes place instead of primary.		       
-		     ii) It may fail to find an empty slot even when the empty slot present.			   
+		     	ii) It may fail to find an empty slot even when the empty slot present.			   
 			- This problem can be removed by making the number of slots in the hash table more than twice of the number of keys to be inserted and taking M as a
 			   prime number.
 			
