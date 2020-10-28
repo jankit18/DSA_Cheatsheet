@@ -37,17 +37,17 @@ Hashing:  Finding exact value in a faster way for present or future use.
        Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
        H(key) = key%5
 
-            	------
+            ------
        0   |  50  | -> 205
-	   	 ------
+	       ------
        1   |  21  | -> 506 -> 711
-	   	 ------
+	   	------
        2   |  17  | -> 102
-	   	 ------
+	   	------
        3   |  58  | -> 8
-	   	 ------
+	   	------
        4   |  54  | -> 159 -> 544 -> 989
-	   	 ------
+	   	------
 		
 2. Open Addressing -> When there is a collision it uses the next free slot of the Hash table for insertion.   
 	Condition for Open addressing :	- Number of slots in the hash table must be greater than or equal to the number of keys to be inserted.   
