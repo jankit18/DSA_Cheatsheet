@@ -33,10 +33,8 @@ Hashing:  Finding exact value in a faster way for present or future use.
 	~ But if we do not know the keys in advance then the following are the techniques which will help us :) 
 
 1. Chaining -> It links the keys with same hash value as chain which can be implemented using a dynamic array or LinkedList or even using self-balancing BST.
-	
        Keys = { 21, 58, 17, 54, 50, 102, 8, 159, 205,506, 711, 544, 989 }
        H(key) = key%5
-
             ------
        0   |  50  | -> 205
 	    ------
@@ -52,10 +50,8 @@ Hashing:  Finding exact value in a faster way for present or future use.
 2. Open Addressing -> When there is a collision it uses the next free slot of the Hash table for insertion.   
 	Condition for Open addressing :	- Number of slots in the hash table must be greater than or equal to the number of keys to be inserted.   
 	Advantage: i) Cache Friendly, since it uses the hash table only.
-	
        Keys = { 50, 51, 49, 16, 56, 15, 19 }
        H(key) = key%7
-
             ------
        0   |  49  | 
 	    ------
@@ -75,7 +71,7 @@ Hashing:  Finding exact value in a faster way for present or future use.
    Types of Open Addressing Based on Efficiency:   
    i. Linear Probing - It searches linearly from the next empty slot when a collision happens.
    
-		H(key,i)=[H(key)+i]%M , where H(key) is a hash function.
+			H(key,i)=[H(key)+i]%M , where H(key) is a hash function.
 		
      -> Disadvantage: i) When there is a large number of collision clustering takes place which makes the searching costly.
       
@@ -84,7 +80,7 @@ Hashing:  Finding exact value in a faster way for present or future use.
 		       H(key,i)=[H(key)+i^2]%M , where H(key) is a hash function.
 		       
      -> Disadvantage: i) Clustering is reduced to some extent as secondary clustering takes place instead of primary.		       
-		     	ii) It may fail to find an empty slot even when the empty slot present.			   
+		     ii) It may fail to find an empty slot even when the empty slot present.			   
 			- This problem can be removed by making the number of slots in the hash table more than twice of the number of keys to be inserted and taking M as a
 			   prime number.
 			
