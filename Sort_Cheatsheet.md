@@ -1,5 +1,5 @@
 #   Bubble Sort 
-    -----------
+
     ->  Short Intro: Find the smallest element for every index by traversing all element after it.
 
     ->  Worst Case Time Complexity - O(N^2)
@@ -9,7 +9,7 @@
 //  For more info: https://www.geeksforgeeks.org/bubble-sort/
 
 #   Insertion Sort 
-    --------------
+
     ->  Short Intro: Sort array before an index and then find perfect place for the value at that index in the sorted part.
 
     ->  Worst time complexity - O(N^2)  
@@ -23,7 +23,7 @@
 
 
 #   Merge Sort 
-    ----------
+
     ->  Short Intro : Based on Divide and Conquer Algorithm. At first Divide whole array into smallest length arrays to the leaf doing O(log(N)) work overall
                   and then merge it from bottom to the root in O(N) work in every level.
 
@@ -39,7 +39,7 @@
 
 
 #   Quick-Sort
-    ----------
+
     ->  Short Intro : Based on Divide and Conquer Algorithm. At First we pick the pivot element then partition the array based on pivot element. 
                   All element lesser than pivot is on left side of it and all element graeter than pivot is on right side of it. 
                   Then we recursively do it for the partitioned array untill whole array is sorted.
@@ -70,7 +70,7 @@
 
 
 #   Heap Sort
-    ---------
+
     ->  Short Intro : Based on Binary Heap. 
 
     ->  Worst Time Complexity - O(NlogN)  
@@ -81,7 +81,7 @@
 
 
 #   Count Sort
-    -----------
+
     ->  Short Intro : Based on counting the occurances of every number and storing the count in the another array at that number index.
 
     ->  Time Complexity:  Theta(N)
@@ -94,7 +94,7 @@
 
 
 #   Radix Sort
-    ----------
+
     ->  Short Intro : Sort in based on the fact that if we sort element based on least significant digit to most significant digit in it, 
                       then final result will be a sorted array. 
 
