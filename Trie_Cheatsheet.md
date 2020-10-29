@@ -15,17 +15,17 @@
 
 #  Time complexities Comparision with Hashing:
 
-                                              Trie			  				                              Hashing
+                                                       Trie			  				 Hashing
                                               
-        1)	Search			         Theta(word_length) in worst case.		            Theta(word_length) in average case.
+        1)	Search			    Theta(word_length) in worst case.		          Theta(word_length) in average case.
         
-        2)	Insert			         Theta(word_length) in worst case.		            Theta(word_length) in average case.
+        2)	Insert			    Theta(word_length) in worst case.		          Theta(word_length) in average case.
         
-        3)	Delete			         Theta(word_length) in worst case.		            Theta(word_length) in average case.
+        3)	Delete			    Theta(word_length) in worst case.		          Theta(word_length) in average case.
         
-        4)	Prefix Search		      Theta(prefix_length) in worst case.		          Not Supported
+        4)	Prefix Search		    Theta(prefix_length) in worst case.		          Not Supported
         
         5)	Lexicographical		    Theta(Output_length) in worst case.		          Not Supported	
-            Ordering
+                Ordering
   
   For more info:https://www.geeksforgeeks.org/trie-insert-and-search/
